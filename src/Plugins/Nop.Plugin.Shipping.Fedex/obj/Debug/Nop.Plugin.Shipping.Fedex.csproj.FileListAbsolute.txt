@@ -1,0 +1,23 @@
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\Views\Configure.cshtml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\web.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\Description.txt
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\logo.jpg
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\Nop.Plugin.Shipping.Fedex.dll.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\Nop.Plugin.Shipping.Fedex.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\Nop.Plugin.Shipping.Fedex.pdb
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.csproj.App.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.csprojResolveAssemblyReference.cache
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\Views\Configure.cshtml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\web.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\Description.txt
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\logo.jpg
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\Nop.Plugin.Shipping.Fedex.dll.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\Nop.Plugin.Shipping.Fedex.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.Fedex\Nop.Plugin.Shipping.Fedex.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.csproj.App.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.pdb

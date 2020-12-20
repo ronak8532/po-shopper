@@ -1,0 +1,22 @@
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.UPS\Views\Configure.cshtml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.UPS\web.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.UPS\Description.txt
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.UPS\logo.jpg
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.dll.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.pdb
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.csproj.App.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.csprojResolveAssemblyReference.cache
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.UPS\Views\Configure.cshtml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.UPS\web.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.UPS\Description.txt
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.UPS\logo.jpg
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.dll.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.csproj.App.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.pdb

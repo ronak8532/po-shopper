@@ -1,0 +1,77 @@
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Nop.Data.dll.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Nop.Data.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Nop.Data.pdb
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\EntityFramework.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\EntityFramework.SqlServer.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\EntityFramework.SqlServerCompact.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Nop.Core.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Data.SqlServerCe.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Autofac.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\AutoMapper.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\StackExchange.Redis.StrongName.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\RedLock.StrongName.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.Mvc.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Autofac.Integration.Mvc.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Newtonsoft.Json.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.Razor.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.WebPages.Razor.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.WebPages.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Microsoft.Web.Infrastructure.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.WebPages.Deployment.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Nop.Core.pdb
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\EntityFramework.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\EntityFramework.SqlServer.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\EntityFramework.SqlServerCompact.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Autofac.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\AutoMapper.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\StackExchange.Redis.StrongName.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.Mvc.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Autofac.Integration.Mvc.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Newtonsoft.Json.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.Razor.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.WebPages.Razor.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.WebPages.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.WebPages.Deployment.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\obj\Release\Nop.Data.csprojResolveAssemblyReference.cache
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\obj\Release\Nop.Data.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Libraries\Nop.Data\obj\Release\Nop.Data.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Nop.Data.dll.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Nop.Data.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Nop.Data.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\EntityFramework.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\EntityFramework.SqlServerCompact.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Nop.Core.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Data.SqlServerCe.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Autofac.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\AutoMapper.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\StackExchange.Redis.StrongName.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\RedLock.StrongName.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.Mvc.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Autofac.Integration.Mvc.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Newtonsoft.Json.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.Razor.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.WebPages.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Nop.Core.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Nop.Core.dll.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\EntityFramework.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\EntityFramework.SqlServerCompact.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Autofac.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\AutoMapper.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\StackExchange.Redis.StrongName.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.Mvc.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Autofac.Integration.Mvc.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\Newtonsoft.Json.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.Razor.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.WebPages.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\obj\Release\Nop.Data.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\obj\Release\Nop.Data.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\obj\Release\Nop.Data.csproj.CopyComplete
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\obj\Release\Nop.Data.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\obj\Release\Nop.Data.pdb

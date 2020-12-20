@@ -1,0 +1,412 @@
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Web.Framework.dll.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Web.Framework.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Web.Framework.pdb
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Antlr3.Runtime.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Autofac.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Autofac.Integration.Mvc.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EntityFramework.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EntityFramework.SqlServer.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\FluentValidation.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Newtonsoft.Json.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Core.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Data.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Services.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Linq.Dynamic.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Net.Http.Extensions.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Net.Http.Primitives.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Helpers.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Mvc.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Optimization.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Razor.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\WebActivator.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\WebGrease.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\AutoMapper.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\StackExchange.Redis.StrongName.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\RedLock.StrongName.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Data.SqlServerCe.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\MaxMind.GeoIP2.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\itextsharp.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EPPlus.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\MaxMind.Db.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ImageResizer.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.Services.Client.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.OData.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.Edm.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Spatial.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Core.pdb
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Data.pdb
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Services.pdb
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Autofac.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Autofac.Integration.Mvc.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EntityFramework.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EntityFramework.SqlServer.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\FluentValidation.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Newtonsoft.Json.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Net.Http.Extensions.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Net.Http.Primitives.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Helpers.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Mvc.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Optimization.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Razor.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.Razor.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\AutoMapper.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\StackExchange.Redis.StrongName.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\MaxMind.GeoIP2.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\itextsharp.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EPPlus.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\MaxMind.Db.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ImageResizer.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.Services.Client.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.OData.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.Edm.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Spatial.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\cs\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\da\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fa\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fi\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\mk\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\nl\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\pl\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\pt\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\sv\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\tr\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-CN\FluentValidation.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\Microsoft.Data.OData.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\Microsoft.Data.OData.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\Microsoft.Data.OData.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\System.Spatial.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\System.Spatial.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\System.Spatial.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\System.Spatial.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ja\System.Spatial.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\System.Spatial.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\System.Spatial.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hans\System.Spatial.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hant\System.Spatial.resources.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.csproj.App.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.csprojResolveAssemblyReference.cache
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Web.Framework.dll.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Web.Framework.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Web.Framework.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Antlr3.Runtime.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Autofac.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EntityFramework.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\FluentValidation.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Core.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Data.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Services.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Helpers.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Mvc.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Optimization.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Razor.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\WebActivator.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\WebGrease.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\AutoMapper.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\StackExchange.Redis.StrongName.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\RedLock.StrongName.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\MaxMind.GeoIP2.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\itextsharp.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EPPlus.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\MaxMind.Db.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ImageResizer.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Spatial.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Core.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Core.dll.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Data.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Data.dll.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Services.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Services.dll.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Autofac.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EntityFramework.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\FluentValidation.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Helpers.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Mvc.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Optimization.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Razor.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\AutoMapper.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\StackExchange.Redis.StrongName.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\MaxMind.GeoIP2.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\itextsharp.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EPPlus.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\MaxMind.Db.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ImageResizer.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Spatial.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\cs\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\da\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fa\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fi\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\mk\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\nl\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\pl\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\pt\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\sv\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\tr\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-CN\FluentValidation.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.csproj.App.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.csproj.CopyComplete
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.pdb
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Web.Framework.dll.config
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Web.Framework.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Web.Framework.pdb
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Autofac.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EntityFramework.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\FluentValidation.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Core.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Data.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Services.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Helpers.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Mvc.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Optimization.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Razor.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\WebActivator.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\WebGrease.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\AutoMapper.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\StackExchange.Redis.StrongName.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\RedLock.StrongName.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\MaxMind.GeoIP2.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\itextsharp.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EPPlus.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\MaxMind.Db.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ImageResizer.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Spatial.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Core.pdb
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Core.dll.config
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Data.pdb
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Data.dll.config
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Services.pdb
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Nop.Services.dll.config
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Autofac.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EntityFramework.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\FluentValidation.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Helpers.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Mvc.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Optimization.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.Razor.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\AutoMapper.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\StackExchange.Redis.StrongName.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\MaxMind.GeoIP2.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\itextsharp.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\EPPlus.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\MaxMind.Db.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ImageResizer.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\System.Spatial.xml
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\cs\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\da\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fa\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fi\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\mk\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\nl\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\pl\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\pt\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\sv\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\tr\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-CN\FluentValidation.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.csproj.App.config
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.csprojAssemblyReference.cache
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.csproj.CoreCompileInputs.cache
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.csproj.CopyComplete
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web.Framework\obj\Debug\Nop.Web.Framework.pdb

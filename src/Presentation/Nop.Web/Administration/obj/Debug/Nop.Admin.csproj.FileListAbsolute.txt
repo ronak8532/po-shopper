@@ -1,0 +1,25 @@
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\bin\Nop.Admin.dll.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\bin\Nop.Admin.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\bin\Nop.Admin.pdb
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csproj.App.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csprojResolveAssemblyReference.cache
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\bin\Nop.Admin.dll.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\bin\Nop.Admin.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\bin\Nop.Admin.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csproj.App.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csproj.CopyComplete
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.pdb
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\bin\Nop.Admin.dll.config
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\bin\Nop.Admin.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\bin\Nop.Admin.pdb
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csproj.App.config
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csprojAssemblyReference.cache
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csproj.CoreCompileInputs.cache
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csproj.CopyComplete
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.dll
+C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.pdb

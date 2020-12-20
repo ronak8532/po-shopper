@@ -1,0 +1,24 @@
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\Content\styles.css
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\Views\Configure.cshtml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\Description.txt
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\web.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\logo.jpg
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\Nop.Plugin.Feed.GoogleShopping.dll.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\Nop.Plugin.Feed.GoogleShopping.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\Nop.Plugin.Feed.GoogleShopping.pdb
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Feed.GoogleShopping\obj\Debug\Nop.Plugin.Feed.GoogleShopping.csproj.App.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Feed.GoogleShopping\obj\Debug\Nop.Plugin.Feed.GoogleShopping.csprojResolveAssemblyReference.cache
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Feed.GoogleShopping\obj\Debug\Nop.Plugin.Feed.GoogleShopping.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Feed.GoogleShopping\obj\Debug\Nop.Plugin.Feed.GoogleShopping.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\Content\styles.css
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\Views\Configure.cshtml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\Description.txt
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\web.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\logo.jpg
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\Nop.Plugin.Feed.GoogleShopping.dll.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\Nop.Plugin.Feed.GoogleShopping.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Presentation\Nop.Web\Plugins\Feed.GoogleShopping\Nop.Plugin.Feed.GoogleShopping.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Feed.GoogleShopping\obj\Debug\Nop.Plugin.Feed.GoogleShopping.csproj.App.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Feed.GoogleShopping\obj\Debug\Nop.Plugin.Feed.GoogleShopping.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Feed.GoogleShopping\obj\Debug\Nop.Plugin.Feed.GoogleShopping.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Feed.GoogleShopping\obj\Debug\Nop.Plugin.Feed.GoogleShopping.pdb

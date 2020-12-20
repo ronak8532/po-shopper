@@ -1,0 +1,94 @@
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll.config
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.pdb
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Data.SqlServerCe.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\AutoMapper.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\StackExchange.Redis.StrongName.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\RedLock.StrongName.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Newtonsoft.Json.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.pdb
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.pdb
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.pdb
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\AutoMapper.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\StackExchange.Redis.StrongName.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Newtonsoft.Json.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.csprojResolveAssemblyReference.cache
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.dll
+F:\Projects\Add more feature\nopcommerce\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\AutoMapper.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\StackExchange.Redis.StrongName.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\RedLock.StrongName.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.dll.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.dll.config
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.pdb
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\AutoMapper.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\StackExchange.Redis.StrongName.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.csproj.CopyComplete
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.dll
+C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.pdb

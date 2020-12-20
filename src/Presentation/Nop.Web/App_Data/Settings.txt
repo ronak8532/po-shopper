@@ -1,0 +1,2 @@
+DataProvider: sqlserver
+DataConnectionString: Data Source=SQL5053.site4now.net;Initial Catalog=DB_A569D3_poshoppers;User Id=DB_A569D3_poshoppers_admin;Password=abc123456
