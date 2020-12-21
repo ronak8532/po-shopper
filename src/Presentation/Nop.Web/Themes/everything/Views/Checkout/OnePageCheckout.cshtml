@@ -1,5 +1,4 @@
 ﻿@model OnePageCheckoutModel
-@*@model CheckoutShippingAddressModel*@
 @using Nop.Web.Models.Checkout;
 @using Nop.Core.Infrastructure;
 @{
@@ -36,679 +35,68 @@
         confirmOrderStepNumber--;
     }
 }
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-<style type="text/css">
-    /* Latest compiled and minified CSS included as External Resource*/
-
-    /* Optional theme */
-
-    /*import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');*/
-    body {
-        margin-top: 30px;
-    }
-
-    .stepwizard-step p {
-        margin-top: 0px;
-        color: #666;
-    }
-
-    .stepwizard-row {
-        display: table-row;
-    }
-
-    .stepwizard {
-        display: table;
-        width: 100%;
-        position: relative;
-    }
-
-    .stepwizard-step button[disabled] {
-        /*opacity: 1 !important;
-    filter: alpha(opacity=100) !important;*/
-    }
-
-    .stepwizard .btn.disabled, .stepwizard .btn[disabled], .stepwizard fieldset[disabled] .btn {
-        opacity: 1 !important;
-        color: #bbb;
-    }
-
-    .stepwizard-row:before {
-        top: 14px;
-        bottom: 0;
-        position: absolute;
-        content: " ";
-        width: 100%;
-        height: 1px;
-        background-color: #ccc;
-        z-index: 0;
-    }
-
-    .stepwizard-step {
-        display: table-cell;
-        text-align: center;
-        position: relative;
-    }
-
-    .btn-circle {
-        width: 30px;
-        height: 30px;
-        text-align: center;
-        padding: 6px 0;
-        font-size: 12px;
-        line-height: 1.428571429;
-        border-radius: 15px;
-    }
-    .txt_creditcardno {
-        box-shadow: none;
-        border: 1px solid #dddddd;
-        font-style: italic;
-        width: 100%; /*38px*/
-        height: 38px;
-        border-radius: 20px 0px 0px 20px !important;
-        -webkit-border-radius: 20px 0px 0px 20px !important;
-        -moz-border-radius: 20px 0px 0px 20px !important;
-        padding-left: 20px;
-    }
-    #h_shipaddhead {
-        font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
-        margin-bottom:6px;
-        font-weight:500;
-        font-size:26px;
-        line-height:1.2;
-    }
-    .lbl_frm {
-        font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
-        line-height: 1.4;
-        font-weight:500;
-        font-size:14px;
-        text-align:left;
-        margin-bottom:-6px;
-    }
-    #dv_frm_row{
-        padding-bottom:12px;
-    }
-</style>
-
-<!--<link rel="stylesheet" href="~/Themes/everything/Content/paymentform.css" />-->
-
-<script>
-    $(document).ready(function () {
-
-        var navListItems = $('div.setup-panel div a'),
-            allWells = $('.setup-content'),
-            allNextBtn = $('.nextBtn');
-
-        allWells.hide();
-
-        navListItems.click(function (e) {
-            e.preventDefault();
-            var $target = $($(this).attr('href')),
-                $item = $(this);
-
-            if (!$item.hasClass('disabled')) {
-                navListItems.removeClass('btn-success').addClass('btn-default');
-                $item.addClass('btn-success');
-                allWells.hide();
-                $target.show();
-                $target.find('input:eq(0)').focus();
-            }
-        });
-
-        allNextBtn.click(function () {
-            var curStep = $(this).closest(".setup-content"),
-                curStepBtn = curStep.attr("id"),
-                nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
-                curInputs = curStep.find("input[type='text'],input[type='url']"),
-                isValid = true;
-
-            $(".form-group").removeClass("has-error");
-            for (var i = 0; i < curInputs.length; i++) {
-                if (!curInputs[i].validity.valid) {
-                    isValid = false;
-                    $(curInputs[i]).closest(".form-group").addClass("has-error");
-                }
-            }
-
-            if (isValid) nextStepWizard.removeAttr('disabled').trigger('click');
-        });
-
-        $('div.setup-panel div a.btn-success').trigger('click');
-    });
-</script>
-
-
 <div class="breadcrumb-view">
     <div class="container">
         <h3 class="title">@T("Checkout")</h3>
     </div>
 </div>
 <div class="container">
-    <div class="one-page-checkout-page">
-        <div class="custom-page-box-div" style="padding-bottom:10px"> <!-- border:1px solid #ddd; -->
+<div class="one-page-checkout-page">    
+    <div class="custom-page-box-div">        
+        <div class="opc panel-group" id="checkout-steps">
 
-            <!-- Steps Wizard Start -->
-            <div class="stepwizard">
-                <div class="stepwizard-row setup-panel">
-                    <div class="stepwizard-step col-xs-3">
-                        <a href="#step-1" type="button" class="btn btn-success btn-circle">1</a>
-                        <p><small>Shipping</small></p>
-                    </div>
-                    <div class="stepwizard-step col-xs-6">
-                        <a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
-                        <p><small>Payment</small></p>
-                    </div>
-                    <div class="stepwizard-step col-xs-3">
-                        <a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
-                        <p><small>Complete</small></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="panel panel-primary setup-content" id="step-1">
-                @*<div class="panel-heading">
-                <h3 class="panel-title">Shipper</h3>
-            </div>*@
-                <div class="panel-body">
-                    <!-- Shipping Form Start -->
-                    <div class="row" style="padding-top:20px" id="dv_shippingaddress">
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-6" style="padding-top:20px;padding-bottom:20px;border:1px solid #ddd;border-radius:5px">
-                            <div class="row">
-                                <div class="col-lg-12"><h1 id="h_shipaddhead">Enter your shipping address</h1></div>
+            <div id="opc-billing" class="panel panel-default tab-section allow">
+                <div class="step-title panel-heading">
+                    <span class="op-number">@billingAddressStepNumber</span>
+                    <h2 class=" panel-title">
+                        <span class="fa fa-map-marker"></span>                        
+                        @T("Checkout.BillingAddress")                        
+                    </h2>
+                </div>                
+                <div id="checkout-step-billing" class="step a-item panel-collapse collapse" style="display: none;">
+                    <div class="panel-body">
+                        <form id="co-billing-form" action="">
+                            <div id="checkout-billing-load">
+                                @Html.Action("OpcBillingForm", "Checkout")
+                                @*billing address content will be loaded here*@
                             </div>
-                            <div class="row" id="dv_frm_row">
-                                <div class="col-lg-12">
-                                    <label class="lbl_frm">Email</label>
-                                    <input type="email" name="txt_email" id="txt_email" class="form-control" required/>
-                                </div>
-                            </div>
-                            <div class="row" id="dv_frm_row">
-                                <div class="col-lg-12">
-                                    <label class="lbl_frm">Confirm Email</label>
-                                    <input type="email" name="txt_email" id="txt_email" class="form-control" required/>
-                                </div>
-                            </div>
-                            <div class="row" id="dv_frm_row">
-                                <div class="col-lg-12">
-                                    <label class="lbl_frm">Country</label>
-                                    <input type="text" name="txt_email" id="txt_email" class="form-control" required/>
-                                </div>
-                            </div>
-                            <div class="row" id="dv_frm_row">
-                                <div class="col-lg-12">
-                                    <label class="lbl_frm">Full name</label>
-                                    <input type="text" name="txt_email" id="txt_email" class="form-control" required/>
-                                </div>
-                            </div>
-                            <div class="row" id="dv_frm_row">
-                                <div class="col-lg-12">
-                                    <label class="lbl_frm">Street address</label>
-                                    <input type="text" name="txt_email" id="txt_email" class="form-control" required/>
-                                </div>
-                            </div>
-                            <div class="row" id="dv_frm_row">
-                                <div class="col-lg-12">
-                                    <label class="lbl_frm">Flat/Other</label>
-                                    <input type="text" name="txt_email" id="txt_email" class="form-control" required/>
-                                </div>
-                            </div>
-                            <div class="row" id="dv_frm_row">
-                                <div class="col-lg-6">
-                                    <label class="lbl_frm">Zip code</label>
-                                    <input type="number" name="txt_email" id="txt_email" class="form-control" required/>
-                                </div>
-                                <div class="col-lg-6">
-                                    <label class="lbl_frm">City</label>
-                                    <input type="text" name="txt_email" id="txt_email" class="form-control" required/>
-                                </div>
-                            </div>
-                            <div class="row" id="dv_frm_row">
-                                <div class="col-lg-12">
-                                    <label class="lbl_frm">State</label>
-                                    <input type="text" name="txt_email" id="txt_email" class="form-control" required/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3"></div>
-                    </div>
-                    <!-- Pickup myself Start -->
-                    <div class="row" style="padding-top:20px">
-                        <!-- padding-right:10px -->
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-6">
-                            <!--Test Pickup Start-->
-                            <input type="checkbox" name="chk_pickup" id="chk_pickup" />
-                            <span style="font-size:12px;font-weight:bold">Self Pickup</span>
-                            <!--Test Pickup End-->
-                            @*<button class="btn btn-primary nextBtn pull-right" type="button" style="float:right">Next</button>*@
-                        </div>
-                        <div class="col-lg-3"></div>
-                    </div>
-                    <!-- Pickup myself End -->
-                    <!-- Shipping Form End -->
-                    <!-- Self Pickup Div Start -->
-                    <div class="row" id="dv_self_pickup" style="display:none">
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-6">
-                            <p style="font-style:italic">Pick up your items at the store</p>
-                            <h5>
-                                Flint Store
-                                730 s dort hwy flint United States
-                            </h5>
-                        </div>
-                        <div class="col-lg-3"></div>
-                    </div>
-                    <!-- Self Pickup Div End -->
-                    <br />
-                    <!--Next Step Start-->
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6"><button class="btn btn-primary nextBtn pull-right" type="button" style="width:100%;background-color:#222222;border:1px solid #222222;border-radius:3px;height:48px;font-size:16px">Continue to payment</button></div>
-                    <div class="col-lg-3"></div>
-                    <!--Next Step End-->
-                </div>
-            </div>
-
-            <div class="panel panel-primary setup-content" id="step-2">
-                @*<div class="panel-heading">
-                <h3 class="panel-title">Destination</h3>
-            </div>*@
-                <div class="panel-body">
-                    <!-- Payment Form Start -->
-                    <div class="row">
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-6">
-                            @*<div id="opc-payment_method" class="panel panel-default tab-section allow" style="padding-top:20px">
-                    <div class="step-title panel-heading">
-                        <span class="op-number">@paymentMethodStepNumber</span>
-                        <h2 class="panel-title"><span class="fa fa-credit-card"></span>@T("Checkout.PaymentMethod")</h2>
-                    </div>
-                    <div id="checkout-step-payment-method" class="panel-collapse collapse step a-item" style="display: none;">
-                        <div class="panel-body">
-                            <form action="" id="co-payment-method-form">
-                                <div id="checkout-payment-method-load">
-                                    @*payment methods content will be loaded here* Payment is not required*
-                                </div>
-                            </form>
-                            <script type="text/javascript">
-                        PaymentMethod.init('#co-payment-method-form', '@(storeLocation)checkout/OpcSavePaymentMethod/');
-                            </script>
-                            <div class="buttons" id="payment-method-buttons-container">
-                                <div class="row">
-                                    <div class="col-md-3 pull-left">
-                                        <p class="back-link">
-                                            <a class="btn btn-primary" href="#" onclick="Checkout.back(); return false;"><small>&laquo; </small>@T("Common.Back")</a>
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3 pull-right pull-text-right">
-                                        <input type="button" class="btn btn-primary button-1 payment-method-next-step-button" title="@T("Common.Continue")" onclick="PaymentMethod.save()" value="@T("Common.Continue")" />
-                                        <span id="payment-method-please-wait" class="please-wait" style="display: none;"> @T("Common.LoadingNextStep")</span>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>*@
-                            <div class="row" id="dv_paymentform" style="border:1px solid #ddd;border-radius:5px;padding:10px">
-                                <!-- You can make it whatever width you want. I'm making it full width
-                on <= small devices and 4/12 page width on >= medium devices -->
-                                <div class="col-xs-12 col-md-12">
-
-
-                                    <!-- CREDIT CARD FORM STARTS HERE -->
-                                    <div class="panel panel-default credit-card-box">
-                                        <div class="panel-heading display-table">
-                                            <div class="row display-tr">
-                                                <h3 class="panel-title display-td">Payment Details</h3>
-                                                <div class="display-td">
-                                                    <img class="img-responsive pull-right" src="http://i76.imgup.net/accepted_c22e0.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="panel-body">
-                                            <form role="form" id="payment-form">
-                                                <div class="row">
-                                                    <div class="col-xs-12">
-                                                        <div class="form-group">
-                                                            <label for="couponCode">Name on card</label>
-                                                            <input type="text" class="form-control" name="couponCode" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-xs-12">
-                                                        <div class="form-group">
-                                                            <label for="cardNumber">Card number</label>
-                                                            <div class="input-group">
-                                                                <input type="tel"
-                                                                       class="txt_creditcardno"
-                                                                       name="cardNumber"
-                                                                       placeholder="Valid Card Number"
-                                                                       autocomplete="cc-number"
-                                                                       required autofocus />
-                                                                <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    @*<label for="cardExpiry"><span class="hidden-xs">Expiration </span><span class="visible-xs-inline">EXP</span>Date</label>*@
-                                                    <div class="col-xs-3 col-md-3">
-                                                        <div class="form-group">
-                                                            <label for="cardExpiry"><span class="hidden-xs">Expiration </span>Date</label>
-                                                            @*<input type="date"
-                                                                class="form-control"
-                                                                name="cardExpiry"
-                                                                placeholder="MM / YY"
-                                                                autocomplete="cc-exp"
-                                                                required />*@
-                                                            <select class="form-control">
-                                                                <option>1</option>
-                                                                <option>2</option>
-                                                                <option>3</option>
-                                                                <option>4</option>
-                                                                <option>5</option>
-                                                                <option>6</option>
-                                                                <option>7</option>
-                                                                <option>8</option>
-                                                                <option>9</option>
-                                                                <option>10</option>
-                                                                <option>11</option>
-                                                                <option>12</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xs-3 col-md-3" style="padding-top:25px">
-                                                        <div class="form-group">
-                                                            @*<label for="cardExpiry"><span class="hidden-xs"></span></label>*@
-                                                            <select class="form-control">
-                                                                <option>2020</option>
-                                                                <option>2021</option>
-                                                                <option>2022</option>
-                                                                <option>2023</option>
-                                                                <option>2024</option>
-                                                                <option>2025</option>
-                                                                <option>2026</option>
-                                                                <option>2027</option>
-                                                                <option>2028</option>
-                                                                <option>2029</option>
-                                                                <option>2030</option>
-                                                                <option>2031</option>
-                                                                <option>2032</option>
-                                                                <option>2033</option>
-                                                                <option>2034</option>
-                                                                <option>2035</option>
-                                                                <option>2036</option>
-                                                                <option>2037</option>
-                                                                <option>2038</option>
-                                                                <option>2039</option>
-                                                                <option>2040</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-xs-6 col-md-6 pull-right">
-                                                        <div class="form-group">
-                                                            <label for="cardCVC">Security code</label>
-                                                            <input type="number"
-                                                                   class="form-control"
-                                                                   name="cardCVC"
-                                                                   placeholder="CVC"
-                                                                   autocomplete="cc-csc"
-                                                                   required max="4" min="3" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row" id="dv_selfpickup_chk">
-                                                    <div class="col-xs-12">
-                                                        <!--<button class="btn btn-success btn-lg btn-block" type="submit">Start Subscription</button>-->
-                                                        <!--Test Pickup Start-->
-                                                        <input type="checkbox" name="chk_shipaddress" id="chk_shipaddress" class="custom-control-input" /><!-- checked -->
-                                                        <span style="font-size:12px;font-weight:bold">My billing address is the same as my shipping address</span>
-                                                        <!--Test Pickup End-->
-                                                    </div>
-                                                </div>
-                                                <div class="row" style="display:none;">
-                                                    <div class="col-xs-12">
-                                                        <p class="payment-errors"></p>
-                                                    </div>
-                                                </div>
-                                                <br />
-                                                <div class="row" id="dv_billingaddress">
-                                                    <div class="col-lg-12">
-
-                                                        <div class="row">
-                                                            <div class="col-lg-12">
-                                                                <label>Country</label>
-                                                                <input type="text" name="txt_country" id="txt_country" class="form-control" />
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="row">
-                                                            <div class="col-lg-12">
-                                                                <label>Full name</label>
-                                                                <input type="text" name="txt_country" id="txt_country" class="form-control" />
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="row">
-                                                            <div class="col-lg-12">
-                                                                <label>Street address</label>
-                                                                <input type="text" name="txt_country" id="txt_country" class="form-control" />
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="row">
-                                                            <div class="col-lg-12">
-                                                                <label>Apt/Suite/Other</label>
-                                                                <input type="text" name="txt_country" id="txt_country" class="form-control" />
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="row">
-                                                            <div class="col-lg-6">
-                                                                <label>Zip code</label>
-                                                                <input type="text" name="txt_country" id="txt_country" class="form-control" />
-                                                            </div>
-                                                            <div class="col-lg-6">
-                                                                <label>City</label>
-                                                                <input type="text" name="txt_country" id="txt_country" class="form-control" />
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="row">
-                                                            <div class="col-lg-12">
-                                                                <label>State</label>
-                                                                <input type="text" name="txt_country" id="txt_country" class="form-control" />
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-
-                                            </form>
-
-                                            <!-- Next tab Start -->
-                                            <div class="row" style="padding-top:20px">
-                                                <!-- padding-right:10px -->
-                                                <div class="col-lg-12">
-                                                    <button class="btn btn-primary nextBtn pull-right" type="button" style="width:100%;background-color:#222222;border:1px solid #222222;border-radius:3px;height:48px;font-size:16px">Complete your order</button>
-                                                    @*<button class="btn btn-primary nextBtn pull-right" type="button" style="float:right">Next</button>*@
-                                                </div>
-                                            </div>
-                                            <!-- Next tab End -->
-                                        </div>
-                                    </div>
-                                    <!-- CREDIT CARD FORM ENDS HERE -->
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-3"></div>
-                    </div>
-                    <br />
-                    <div class="row" id="dv_cashpayment_chk">
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-10"><input type="checkbox" name="chk_cashpayment" id="chk_cashpayment" /><span style="font-weight:bold;font-size:12px">Cash Payment</span></div>
-                        <div class="col-lg-1"></div>
-                    </div>
-
-                    <div class="row" id="dv_cashpaymentmsg" style="padding-top:10px;display:none">
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-10">
-                            <h5 style="color:red">Item will be pickup within 48 hours. Applicable storage fees may apply there after.</h5><br />
-                            <button class="btn btn-primary nextBtn pull-right" type="button" style="width:100%;background-color:#222222;border:1px solid #222222;border-radius:3px;height:48px;font-size:16px">Complete your order</button>
-                        </div>
-                        <div class="col-lg-1"></div>
-                    </div>
-
-                    @*<div class="row" id="dv_billingaddress">
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-10" style="border:1px solid #ddd;border-radius:5px;padding-top:15px;padding-bottom:15px">
-
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <label>Country</label>
-                                    <input type="text" name="txt_country" id="txt_country" class="form-control" />
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <label>Full name</label>
-                                    <input type="text" name="txt_country" id="txt_country" class="form-control" />
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <label>Street address</label>
-                                    <input type="text" name="txt_country" id="txt_country" class="form-control" />
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <label>Apt/Suite/Other</label>
-                                    <input type="text" name="txt_country" id="txt_country" class="form-control" />
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <label>Zip code</label>
-                                    <input type="text" name="txt_country" id="txt_country" class="form-control" />
-                                </div>
-                                <div class="col-lg-6">
-                                    <label>City</label>
-                                    <input type="text" name="txt_country" id="txt_country" class="form-control" />
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <label>State</label>
-                                    <input type="text" name="txt_country" id="txt_country" class="form-control" />
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-1"></div>
-                    </div>*@
-                    <br />
-                    <!-- Next tab Start -->
-                    @*<div class="row" style="padding-top:20px">
-                        <!-- padding-right:10px -->
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-10">
-                            <button class="btn btn-primary nextBtn pull-right" type="button" style="width:100%;background-color:#222222;border:1px solid #222222;border-radius:3px;height:48px;font-size:16px">Review your order</button>
-                            @*<button class="btn btn-primary nextBtn pull-right" type="button" style="float:right">Next</button>
-                        </div>
-                        <div class="col-lg-1"></div>
-                    </div>*@
-                    <!-- Next tab End -->
-                    <!-- Payment Form End -->
-                    <!--<button class="btn btn-success pull-right" type="submit">Finish!</button>-->
-                </div>
-            </div>
-            <!-- Steps Wizard End -->
-
-            <!-- Review Div Start -->
-            <div class="panel panel-primary setup-content" id="step-3">
-                @*<div class="panel-heading">
-                <h3 class="panel-title">Shipper</h3>
-            </div>*@
-                <div class="panel-body">
-                    <div class="row" style="padding-top:20px" id="dv_shippingaddress">
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-10">
-                            <h4>Thankyou for your order! :)</h4>
-                        </div>
-                        <div class="col-lg-1"></div>
-                    </div>
-
-                    <br />
-                    <!-- Next tab Start -->
-                    <div class="row" style="padding-top:20px">
-                        <!-- padding-right:10px -->
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-10">
-                            <button class="btn btn-primary nextBtn pull-right" id="btn_finishorder" type="button" style="width:100%;background-color:#222222;border:1px solid #222222;border-radius:3px;height:48px;font-size:16px">Finish</button>
-                            @*<button class="btn btn-primary nextBtn pull-right" type="button" style="float:right">Next</button>*@
-                        </div>
-                        <div class="col-lg-1"></div>
-                    </div>
-                    <!-- Next tab End -->
-
-                </div>
-            </div>
-            <!-- Review Div End -->
-
-            <div class="opc panel-group" id="checkout-steps">
-
-                <!-- Continue checkout button row Start -->
-                <div class="row">
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-8">
+                        </form>
+                        <script type="text/javascript">
+                            Billing.init('#co-billing-form', '@(storeLocation)checkout/OpcSaveBilling/', @(Model.DisableBillingAddressCheckoutStep.ToString().ToLowerInvariant()));
+                            if ($("#billing-address-select").length > 0) {
+                                Billing.newAddress(!$('#billing-address-select').val());
+                            }
+                        </script>
                         <div class="buttons" id="billing-buttons-container">
-                            @*<input type="button" title="@T("Common.Continue")" style="width:100%;background-color:#222222;border:1px solid #222222;border-radius:3px;height:48px;font-size:16px" class="btn btn-primary button-1 new-address-next-step-button" onclick="Billing.save()" value="@T("Common.Continue")" />*@
-                            @*<button class="btn btn-primary nextBtn pull-right" type="button" style="width:100%;background-color:#222222;border:1px solid #222222;border-radius:3px;height:48px;font-size:16px">Next</button>*@
+                            <input type="button" title="@T("Common.Continue")" class="btn btn-primary button-1 new-address-next-step-button" onclick="Billing.save()" value="@T("Common.Continue")" />
                             <span class="please-wait" id="billing-please-wait" style="display: none;">@T("Common.LoadingNextStep")</span>
                         </div>
                     </div>
-                    <div class="col-lg-2"></div>
+                    
                 </div>
-
-                <!--Store Shipping Address Start (Pickup myself)-->
-                @*@if (Model.ShippingRequired)
+            </div>
+            @if (Model.ShippingRequired)
             {
                 <div id="opc-shipping" class="panel panel-default tab-section">
                     <div class="step-title panel-heading">
                         <span class="op-number">@shippingAddressStepNumber</span>
-                        <h2 class="panel-title">
-                            <span class="fa fa-map-marker"></span>
-                            @T("Checkout.ShippingAddress")
-                        </h2>
+                            <h2 class="panel-title">
+                                <span class="fa fa-map-marker"></span>
+                                @T("Checkout.ShippingAddress")                                
+                            </h2>                
                     </div>
                     <div id="checkout-step-shipping" class="panel-collapse collapse step a-item" style="display: none;">
                         <div class="panel-body">
                             <form action="" id="co-shipping-form">
                                 <div id="checkout-shipping-load">
-                                    @*shipping address content will be loaded here*
+                                    @*shipping address content will be loaded here*@
                                 </div>
                             </form>
                             <script type="text/javascript">
-                                                                            Shipping.init('#co-shipping-form', '@(storeLocation)checkout/OpcSaveShipping/');
-                                                                            if ($("#shipping-address-select").length > 0) {
-                                                                                Shipping.newAddress(!$('#shipping-address-select').val());
-                                                                            }
+                                Shipping.init('#co-shipping-form', '@(storeLocation)checkout/OpcSaveShipping/');
+                                if ($("#shipping-address-select").length > 0) {
+                                    Shipping.newAddress(!$('#shipping-address-select').val());
+                                }
                             </script>
                             <div class="buttons" id="shipping-buttons-container">
                                 <div class="row">
@@ -722,94 +110,48 @@
                                         <span id="shipping-please-wait" class="please-wait" style="display: none;"> @T("Common.LoadingNextStep")</span>
                                     </div>
                                 </div>
-
-
+                                
+                                
                             </div>
                         </div>
                     </div>
                 </div>
-            }*@
-
-                <!-- Store Shipping Address End (Pickup myself) -->
-                <!-- Continue checkout button row End -->
-                @*@if (Model.ShippingRequired)
-            {
-            <div id="opc-shipping" class="panel panel-default tab-section">
-                <div class="step-title panel-heading">
-                    <span class="op-number">@shippingAddressStepNumber</span>
-                    <h2 class="panel-title">
-                        <span class="fa fa-map-marker"></span>
-                        @T("Checkout.ShippingAddress")
-                    </h2>
-                </div>
-                <div id="checkout-step-shipping" class="panel-collapse collapse step a-item" style="display: none;">
-                    <div class="panel-body">
-                        <form action="" id="co-shipping-form">
-                            <div id="checkout-shipping-load">
-                                @*shipping address content will be loaded here
-                                                    </div>
-                                                </form>
-                                                <script type="text/javascript">
-                                                    Shipping.init('#co-shipping-form', '@(storeLocation)checkout/OpcSaveShipping/');
-                                                    if ($("#shipping-address-select").length > 0) {
-                                                        Shipping.newAddress(!$('#shipping-address-select').val());
-                                                    }
-                                                </script>
-                                                <div class="buttons" id="shipping-buttons-container">
-                                                    <div class="row">
-                                                        <div class="col-md-3 pull-left">
-                                                            <p class="back-link">
-                                                                <a class="btn btn-primary" href="#" onclick="Checkout.back(); return false;"><small>&laquo; </small>@T("Common.Back")</a>
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-md-3 pull-right pull-text-right">
-                                                            <input type="button" class="btn btn-primary button-1 new-address-next-step-button" title="@T("Common.Continue")" onclick="Shipping.save()" value="@T("Common.Continue")" />
-                                                            <span id="shipping-please-wait" class="please-wait" style="display: none;"> @T("Common.LoadingNextStep")</span>
-                                                        </div>
-                                                    </div>
 
 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                        <div id="opc-shipping_method" class="panel panel-default tab-section">
-                            <div class="step-title panel-heading">
-                                <span class="op-number">@shippingMethodStepNumber</span>
-                                <h2 class ="panel-title"><span class="fa fa-truck"></span>@T("Checkout.ShippingMethod") </h2>
+    <div id="opc-shipping_method" class="panel panel-default tab-section">
+        <div class="step-title panel-heading">
+            <span class="op-number">@shippingMethodStepNumber</span>
+            <h2 class ="panel-title"><span class="fa fa-truck"></span>@T("Checkout.ShippingMethod") </h2>
+        </div>
+        <div id="checkout-step-shipping-method" class="panel-collapse collapse step a-item" style="display: none;">
+            <div class="panel-body">
+                <form id="co-shipping-method-form" action="">
+                    <div id="checkout-shipping-method-load" >
+                        @*shipping methods content will be loaded here*@
+                    </div>
+                    <script type="text/javascript">
+                        ShippingMethod.init('#co-shipping-method-form', '@(storeLocation)checkout/OpcSaveShippingMethod/');
+                    </script>
+                    <div class="buttons" id="shipping-method-buttons-container">                        
+                        <div class="row">
+                            <div class="col-md-3 pull-left">
+                                <p class="back-link">
+                                    <a class="btn btn-primary" href="#" onclick="Checkout.back(); return false;"><small>&laquo; </small>@T("Common.Back")</a>
+                                </p>
                             </div>
-                            <div id="checkout-step-shipping-method" class="panel-collapse collapse step a-item" style="display: none;">
-                                <div class="panel-body">
-                                    <form id="co-shipping-method-form" action="">
-                                        <div id="checkout-shipping-method-load" >
-                                            @*shipping methods content will be loaded here
-                                        </div>
-                                        <script type="text/javascript">
-                                            ShippingMethod.init('#co-shipping-method-form', '@(storeLocation)checkout/OpcSaveShippingMethod/');
-                                        </script>
-                                        <div class="buttons" id="shipping-method-buttons-container">
-                                            <div class="row">
-                                                <div class="col-md-3 pull-left">
-                                                    <p class="back-link">
-                                                        <a class="btn btn-primary" href="#" onclick="Checkout.back(); return false;"><small>&laquo; </small>@T("Common.Back")</a>
-                                                    </p>
-                                                </div>
-                                                <div class="col-md-3 pull-right pull-text-right">
-                                                    <input type="button" class="btn btn-primary button-1 shipping-method-next-step-button" title="@T("Common.Continue")" onclick="ShippingMethod.save()" value="@T("Common.Continue")" />
-                                                    <span id="shipping-method-please-wait" class="please-wait" style="display: none;"> @T("Common.LoadingNextStep")</span>
-                                                </div>
-                                            </div>
-
-                                           </div>
-                                    </form>
-                                </div>
+                            <div class="col-md-3 pull-right pull-text-right">
+                                <input type="button" class="btn btn-primary button-1 shipping-method-next-step-button" title="@T("Common.Continue")" onclick="ShippingMethod.save()" value="@T("Common.Continue")" />
+                                <span id="shipping-method-please-wait" class="please-wait" style="display: none;"> @T("Common.LoadingNextStep")</span>
                             </div>
                         </div>
-                                }*@
 
-                @*<div id="opc-payment_method" class="panel panel-default tab-section">
+                       </div>
+                </form>
+            </div>
+        </div>
+    </div>
+            }            
+            <div id="opc-payment_method" class="panel panel-default tab-section">
                 <div class="step-title panel-heading">
                     <span class="op-number">@paymentMethodStepNumber</span>
                     <h2 class="panel-title"><span class="fa fa-credit-card"></span>@T("Checkout.PaymentMethod")</h2>
@@ -818,7 +160,7 @@
                     <div class="panel-body">
                         <form action="" id="co-payment-method-form">
                             <div id="checkout-payment-method-load">
-                                @*payment methods content will be loaded here* Payment is not required
+                                @*payment methods content will be loaded here*@ Payment is not required
                             </div>
                         </form>
                         <script type="text/javascript">
@@ -843,7 +185,7 @@
                 </div>
             </div>
             <div id="opc-payment_info" class="panel panel-default tab-section">
-                <div class="step-title panel-heading">
+                <div class="step-title panel-heading">                    
                     <span class="op-number">@paymentInfoStepNumber</span>
                     <h2 class ="panel-title"><span class="fa fa-info-circle"></span> @T("Checkout.PaymentInfo")</h2>
                </div>
@@ -851,7 +193,7 @@
                     <div class="panel-body">
                         <form action="" id="co-payment-info-form">
                             <div id="checkout-payment-info-load">
-                                @*payment info content will be loaded here* Payment is not required
+                                @*payment info content will be loaded here*@ Payment is not required
                             </div>
                         </form>
                         <script type="text/javascript">
@@ -882,7 +224,7 @@
                     </h2>
                 </div>
                 <div id="checkout-step-confirm-order" class="panel-collapse collapse step a-item" style="display: none;">
-
+                    
                     <div class="panel-body">
                         <div id="checkout-confirm-order-load">
                             $1$confirm order content will be loaded here#1#
@@ -905,10 +247,9 @@
                         </div>
                     </div>
                 </div>
-            </div>*@
-
             </div>
-            <script type="text/javascript">
+        </div>        
+        <script type="text/javascript">
             Accordion.init('checkout-steps', '.step-title', true);
             Accordion.openSection('#opc-billing');
             Checkout.init('@(storeLocation)cart/');
@@ -917,26 +258,10 @@
                 Accordion.hideSection('#opc-billing');
                 Billing.save();
             }
-            </script>
-
-            <script type="text/javascript">
-                $('#chk_pickup').change(function () {
-                    $('#dv_shippingaddress').toggle();
-                    $('#dv_self_pickup').toggle();
-                    $('#dv_billingaddress').toggle();
-                    $('#dv_selfpickup_chk').toggle();
-                });
-                $('#chk_cashpayment').change(function () {
-                    $('#dv_paymentform').toggle();
-                    $('#dv_cashpaymentmsg').toggle();
-                });
-                $('#chk_shipaddress').change(function () {
-                    $('#dv_billingaddress').toggle();
-                });
-                $('#btn_finishorder').click(function () {
-                    window.location = 'http://localhost:15536/'
-                });
-            </script>
-        </div>
-        </div>
+        </script>
     </div>
+</div>
+</div>
+
+
+        
