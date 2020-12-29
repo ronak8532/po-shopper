@@ -22,3 +22,16 @@ C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Payments.Pay
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.csproj.CopyComplete
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.dll
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\Configure.cshtml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentInfo.cshtml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\web.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Description.txt
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\logo.jpg
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.csprojAssemblyReference.cache
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.csproj.CoreCompileInputs.cache
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.csproj.CopyComplete
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.pdb

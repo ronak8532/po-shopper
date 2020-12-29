@@ -21,3 +21,15 @@ C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.Aus
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.dll
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Views\Configure.cshtml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Description.txt
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\web.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\logo.jpg
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csproj.App.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csprojAssemblyReference.cache
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csproj.CoreCompileInputs.cache
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.pdb

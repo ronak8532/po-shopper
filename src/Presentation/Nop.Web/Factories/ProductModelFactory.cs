@@ -72,6 +72,7 @@ namespace Nop.Web.Factories
         private readonly CaptchaSettings _captchaSettings;
         private readonly SeoSettings _seoSettings;
         private readonly ICacheManager _cacheManager;
+        private readonly IShoppingCartModelFactory _shoppingCartModelFactory;
 
         #endregion
 
@@ -108,7 +109,8 @@ namespace Nop.Web.Factories
             CustomerSettings customerSettings,
             CaptchaSettings captchaSettings,
             SeoSettings seoSettings,
-            ICacheManager cacheManager)
+            ICacheManager cacheManager,
+            IShoppingCartModelFactory shoppingCartModelFactory)
         {
             this._specificationAttributeService = specificationAttributeService;
             this._categoryService = categoryService;
@@ -142,6 +144,7 @@ namespace Nop.Web.Factories
             this._captchaSettings = captchaSettings;
             this._seoSettings = seoSettings;
             this._cacheManager = cacheManager;
+            _shoppingCartModelFactory = shoppingCartModelFactory;
         }
 
         #endregion
@@ -969,6 +972,22 @@ namespace Nop.Web.Factories
             return model;
         }
 
+        protected virtual IList<ProductDetailsModel.CategoryListModel> PrepareProductCategoryListModel()
+        {
+            var categories = _categoryService.GetAllCategories();
+            var model = new List<ProductDetailsModel.CategoryListModel>();
+            foreach (var category in categories)
+            {
+                var modelCat = new ProductDetailsModel.CategoryListModel
+                {
+                    Name = category.Name,
+                    SeName = category.GetSeName(),
+                };
+                model.Add(modelCat);
+            }
+            return model;
+        }
+
         /// <summary>
         /// Prepare the product manufacturer models
         /// </summary>
@@ -1317,6 +1336,10 @@ namespace Nop.Web.Factories
                 }
             }
 
+            var productReviewModel = new ProductReviewsModel();
+
+            model.ProductReviews = PrepareProductReviewsModel(productReviewModel, product);
+
             //product attributes
             model.ProductAttributes = PrepareProductAttributeModels(product, updatecartitem);
             
@@ -1335,6 +1358,10 @@ namespace Nop.Web.Factories
             {
                 model.TierPrices = PrepareProductTierPriceModels(product);
             }
+
+            model.Categories = PrepareProductCategoryListModel();
+
+            model.EstimateShipping = _shoppingCartModelFactory.PrepareProductEstimateShippingModel(true);
 
             //manufacturers
             //do not prepare this model for the associated products. anywway it's not used

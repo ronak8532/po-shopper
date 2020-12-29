@@ -23,3 +23,15 @@ C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Payments.Pay
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.dll
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\Configure.cshtml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\PaymentInfo.cshtml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\web.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Description.txt
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\logo.jpg
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.dll.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.csproj.App.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.csproj.CoreCompileInputs.cache
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.pdb

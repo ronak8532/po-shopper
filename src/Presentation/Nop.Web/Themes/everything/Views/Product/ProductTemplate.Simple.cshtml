@@ -60,47 +60,125 @@
         @Html.Widget("productdetails_top")
         @using (Html.BeginRouteForm("Product", new { SeName = Model.SeName }, FormMethod.Post, new { id = "product-details-form" }))
         {
-            <div itemscope itemtype="http://schema.org/Product" data-productid="@Model.Id">
-                <div class=" product-essential">
-                    @Html.Widget("productdetails_before_pictures", Model.Id)
-                    <div class="row">
+        <div itemscope itemtype="http://schema.org/Product" data-productid="@Model.Id">
+            <div class=" product-essential">
+                @Html.Widget("productdetails_before_pictures", Model.Id)
+                <div class="row">
                     <!--product pictures-->
                     <div class="col-md-5 col-sm-4">
                         @Html.Partial("_ProductDetailsPictures", Model)
                         @Html.Widget("productdetails_after_pictures", Model.Id)
                     </div>
-                    <div class="col-md-7 col-sm-8">                        
+                    <div class="col-md-7 col-sm-8">
                         <div class="overview">
                             <div class="panel-heading">
                                 <h3>@Model.Name</h3>
                             </div>
-                            @if (!String.IsNullOrEmpty(Model.ShortDescription))
+                            <div class="name-price">
+                                @{
+                                    var dataDictPrice = new ViewDataDictionary();
+                                    dataDictPrice.TemplateInfo.HtmlFieldPrefix = string.Format("price_{0}", Model.Id);
+                                    @Html.Partial("_ProductPrice", Model.ProductPrice, dataDictPrice)
+                                    @Html.Partial("_Availability", Model)
+                                }
+                            </div>
+                            <div class="name-price-clear"></div>
+                            <div id="accordion-specifications">
+
+                                <h3>@T("Product.title.Highlights")</h3>
+                                @Html.Partial("_ProductSpecifications", Model.ProductSpecifications)
+
+                            </div>
+                            @if (!String.IsNullOrEmpty(Model.FullDescription))
                             {
                                 <div id="accordion">
-                                    @if (!String.IsNullOrEmpty(Model.ShortDescription))
+                                    @if (!String.IsNullOrEmpty(Model.FullDescription))
                                     {
                                         <h3>@T("Product.title.Description")</h3>
                                         <div class="product-details">
                                             <div class="full-description">
-                                                @Html.Raw(Model.ShortDescription)
+                                                @Html.Raw(Model.FullDescription)
                                             </div>
 
                                         </div>
                                     }
                                 </div>
+
                             }
+                            <div id="accordion-ship">
+                                <h3 class="accordian-downarrow">@T("Product.title.Delivery")</h3>
+                                <div class="shipping">
+                                    <script type="text/javascript">
+                $(function () {
+                    $("#@Html.FieldIdFor(model => model.EstimateShipping.CountryId)").change(function () {
+                        var selectedItem = $(this).val();
+                        var ddlStates = $("#@Html.FieldIdFor(model => model.EstimateShipping.StateProvinceId)");
+                        var estimateProgress = $("#estimate-shipping-loading-progress");
+                        estimateProgress.show();
+                        $.ajax({
+                            cache: false,
+                            type: "GET",
+                            url: "@(Url.RouteUrl("GetStatesByCountryId"))",
+                            data: { "countryId": selectedItem, "addSelectStateItem": "true" },
+                            success: function (data) {
+                                ddlStates.html('');
+                                $.each(data, function (id, option) {
+                                    ddlStates.append($('<option></option>').val(option.id).html(option.name));
+                                });
+                                estimateProgress.hide();
+                            },
+                            error: function (xhr, ajaxOptions, thrownError) {
+                                alert('Failed to retrieve states.');
+                                estimateProgress.hide();
+                            }
+                        });
+                    });
+                });
+                                    </script>
+                                    <div class="estimate-shipping">
+                                        <div class="title">
+                                            <strong>@T("ShoppingCart.EstimateShipping")</strong>
+                                        </div>
+                                        <div class="hint">@T("ShoppingCart.EstimateShipping.Tooltip")</div>
+                                        <div class="shipping-options">
+                                            <div class="inputs">
+                                                @Html.LabelFor(model => model.EstimateShipping.CountryId, new { }, ":")
+                                                <span class="required">*</span>
+                                                @Html.DropDownListFor(model => model.EstimateShipping.CountryId, Model.EstimateShipping.AvailableCountries, new { @class = "form-control square-box" })
+
+                                            </div>
+                                            <div class="inputs">
+                                                @Html.LabelFor(model => model.EstimateShipping.StateProvinceId, new { }, ":")
+                                                @Html.DropDownListFor(model => model.EstimateShipping.StateProvinceId, Model.EstimateShipping.AvailableStates, new { @class = "form-control square-box" })
+                                                <span id="estimate-shipping-loading-progress" style="display: none;" class="please-wait">@T("Common.Wait...")</span>
+                                            </div>
+                                            <div class="inputs">
+                                                @Html.LabelFor(model => model.EstimateShipping.ZipPostalCode, new { }, ":")
+                                                @Html.TextBoxFor(model => model.EstimateShipping.ZipPostalCode, new { @class = "form-control square-box" })
+                                            </div><br />
+                                            <div class="buttons">
+                                                @*<input type="submit" name="estimateshipping" value="@T("ShoppingCart.EstimateShipping.Button")" class="btn btn-default" />*@
+                                                <input id="estimate-shipping-button" type="button" value="@T("ShoppingCart.EstimateShipping.Button")" class="button-2 estimate-shipping-button btn btn-default" />
+                                            </div>
+                                        </div><br />
+                                        <div class="estimate-shipping-result"></div>
+
+                                    </div>
+                                </div>
+                            </div>
+
                             @Html.Widget("productdetails_overview_top")
                             <!--product SKU, manufacturer part number, stock info-->
                             @*@Html.Partial("_SKU_Man_Stock", Model)*@
                             <!--Back in stock subscription-->
                             @*@Html.Partial("_BackInStockSubscription", Model)*@
                             <!--product manufacturers-->
-                            @Html.Partial("_ProductManufacturers", Model.ProductManufacturers)
+                            @*@Html.Partial("_ProductManufacturers", Model.ProductManufacturers)*@
                             <!--product reviews-->
                             <!--availability-->
-                            @Html.Partial("_Availability", Model)
+                            @*@Html.Partial("_Availability", Model)*@
                             <!--SKU, MAN, GTIN, vendor-->
-                            @Html.Partial("_SKU_Man_GTIN_Ven", Model)
+                            @*@Html.Partial("_SKU_Man_GTIN_Ven", Model)*@
                             <!--delivery-->
                             @*@Html.Partial("_DeliveryInfo", Model)*@
                             @Html.Partial("_ProductReviewOverview", Model.ProductReviewOverview)
@@ -126,9 +204,7 @@
                             }
                             <!--price & add to cart-->
                             @{
-                                var dataDictPrice = new ViewDataDictionary();
-                                dataDictPrice.TemplateInfo.HtmlFieldPrefix = string.Format("price_{0}", Model.Id);
-                                @Html.Partial("_ProductPrice", Model.ProductPrice, dataDictPrice)
+
 
                                 var dataDictAddToCart = new ViewDataDictionary();
                                 dataDictAddToCart.TemplateInfo.HtmlFieldPrefix = string.Format("addtocart_{0}", Model.Id);
@@ -143,51 +219,119 @@
                             @Html.Widget("productdetails_overview_bottom")
                         </div>
                     </div>
-                   </div>
-                    <div class="clearfix"></div>
-                    <ul class="nav nav-tabs">
-                        @if (!String.IsNullOrEmpty(Model.FullDescription))
-                        {
-                          
-                            <li class="active"><a href="#description" data-toggle="tab">Description</a></li>
-                        }
-                        @if (!String.IsNullOrEmpty(@Html.Partial("_ProductSpecifications", Model.ProductSpecifications).ToString()))
-                        {
+                </div>
+                <div class="clearfix"></div>
 
-                            <li><a href="#specification" data-toggle="tab">Specifications</a></li>
-                        }
-                        @if (!String.IsNullOrEmpty(@Html.Partial("_ProductTags", Model.ProductTags).ToString()))
-                        {
-                            <li><a href="#tags" data-toggle="tab">Products Tags</a></li>
-                        }
-                    </ul>
+                <ul class="nav nav-tabs">
+                    @*@if (!String.IsNullOrEmpty(Model.FullDescription))
+                    {
+
+                        <li class="active"><a href="#description" data-toggle="tab">Description</a></li>
+                    }
+                    @if (!String.IsNullOrEmpty(@Html.Partial("_ProductSpecifications", Model.ProductSpecifications).ToString()))
+                    {
+
+                        <li><a href="#specification" data-toggle="tab">Specifications</a></li>
+                    }
+                    @if (!String.IsNullOrEmpty(@Html.Partial("_ProductTags", Model.ProductTags).ToString()))
+                    {
+                        <li><a href="#tags" data-toggle="tab">Products Tags</a></li>
+                    }*@
+                    <li><a href="#review" data-toggle="tab"> Review </a></li>
+                </ul>
 
 
-                    <div class="tab-content">
-                        @if (!String.IsNullOrEmpty(Model.FullDescription))
+                <div class="tab-content">
+                    @*@if (!String.IsNullOrEmpty(Model.FullDescription))
+                    {
+                        <div class="full-description tab-pane active" id="description" itemprop="description">
+                            @Html.Raw(Model.FullDescription)
+                        </div>
+                    }
+                    @if (!String.IsNullOrEmpty(@Html.Partial("_ProductSpecifications", Model.ProductSpecifications).ToString()))
+                    {
+                        <div class="full-description tab-pane" id="specification">
+                            @Html.Partial("_ProductSpecifications", Model.ProductSpecifications)
+                        </div>
+                    }
+                    @if (!String.IsNullOrEmpty(@Html.Partial("_ProductTags", Model.ProductTags).ToString()))
+                    {
+                        <div class="full-description tab-pane" id="tags">
+                            @Html.Partial("_ProductTags", Model.ProductTags)
+                        </div>
+                    }*@
+
+                    <div class="full-description tab-pane active" id="review">
+                        @if (Model.ProductReviews.Items.Count > 0)
                         {
-                            <div class="full-description tab-pane active" id="description" itemprop="description">
-                                @Html.Raw(Model.FullDescription)
-                            </div>
-                        }
-                        @if (!String.IsNullOrEmpty(@Html.Partial("_ProductSpecifications", Model.ProductSpecifications).ToString()))
-                        {
-                            <div class="full-description tab-pane" id="specification">
-                                @Html.Partial("_ProductSpecifications", Model.ProductSpecifications)
-                            </div>
-                        }
-                        @if (!String.IsNullOrEmpty(@Html.Partial("_ProductTags", Model.ProductTags).ToString()))
-                        {
-                            <div class="full-description tab-pane" id="tags">
-                                @Html.Partial("_ProductTags", Model.ProductTags)
+                            <div class="product-review-list">
+                                <div class="title">
+                                    <strong>@T("Reviews.ExistingReviews")</strong>
+                                </div>
+                                @foreach (var review in Model.ProductReviews.Items)
+                                {
+                                    int ratingPercentes = review.Rating * 20;
+                                    <div class="product-review-item">
+                                        <div class="review-item-head">
+                                            <div class="review-title">
+                                                <strong>@review.Title</strong>
+                                            </div>
+                                            <div class="product-review-box">
+                                                <div class="rating">
+                                                    <div style="width: @(ratingPercentes)%">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="review-content">
+                                            <div class="review-text">
+                                                @Html.Raw(Nop.Core.Html.HtmlHelper.FormatText(review.ReviewText, false, true, false, false, false, false))
+                                            </div>
+                                            <div class="review-info">
+                                                <span class="user">
+                                                    <label>@T("Reviews.From"):</label>
+                                                    @if (review.AllowViewingProfiles)
+                                                    {
+                                                        <a href="@Url.RouteUrl("CustomerProfile", new { id = review.CustomerId })">@(review.CustomerName)</a>
+                                                    }
+                                                    else
+                                                    {
+                                                        @review.CustomerName
+                                                    }
+                                                </span>
+                                                <span class="separator">|</span>
+                                                <span class="date">
+                                                    <label>@T("Reviews.Date"):</label>
+                                                    <span>@review.WrittenOnStr</span>
+                                                </span>
+                                            </div>
+                                            @Html.Partial("_ProductReviewHelpfulness", review.Helpfulness, new ViewDataDictionary())
+                                            @Html.Widget("productreviews_page_inside_review", review.Id)
+                                            @if (!String.IsNullOrEmpty(review.ReplyText))
+                                            {
+                                                <div class="reply">
+                                                    <div class="reply-header">
+                                                        @T("Reviews.Reply")
+                                                    </div>
+                                                    <div class="reply-text">
+                                                        @Html.Raw(Nop.Core.Html.HtmlHelper.FormatText(review.ReplyText, false, true, false, false, false, false))
+                                                    </div>
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                }
                             </div>
                         }
                     </div>
                 </div>
-
-                @Html.Widget("productdetails_before_collateral")
-                @Html.Partial("_ProductTierPrices", Model.TierPrices)
             </div>
+
+            @Html.Partial("CategoryOverview", Model.Categories)
+
+            @Html.Widget("productdetails_before_collateral")
+            @Html.Partial("_ProductTierPrices", Model.TierPrices)
+        </div>
         }
         @Html.Widget("productdetails_bottom")
     </div>
@@ -204,6 +348,16 @@
             collapsible: true,
 
         });
+        $("#accordion-ship").accordion({
+            heightStyle: "content",
+            collapsible: true,
+
+        });
+        $("#accordion-specifications").accordion({
+            heightStyle: "content",
+            collapsible: true,
+
+        });
         if ($(window).width() < 769) {
             $("#accordion").accordion({
                 heightStyle: "content",
@@ -211,7 +365,46 @@
                 active: false
 
             });
+            $("#accordion-ship").accordion({
+                heightStyle: "content",
+                collapsible: true,
+                active: false
+            });
+            $("#accordion-specifications").accordion({
+                heightStyle: "content",
+                collapsible: true,
+                active: false
+            });
         }
+
+        $(".accordian-downarrow").on("click", function () {
+            //Reset all but the current
+            $('.accordian-downarrow').not(this).find('.fa-angle-down').removeClass('rotate-element');
+            //Rotate/reset the clicked one
+            $(this).find('.fa-angle-down').toggleClass('rotate-element');
+        });
         
     })
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#estimate-shipping-button').click(function() {
+            displayAjaxLoading(true);
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url: "@(Url.RouteUrl("ProductEstimateShipping"))",
+                data: $("#shopping-cart-form").serialize(),
+                success: function(data) {
+                    displayAjaxLoading();
+                    $('.estimate-shipping-result').html(data);
+                },
+                error: function(xhr, ajaxOptions, thrownError) {
+                    displayAjaxLoading();
+                    alert('Failed to retrieve estimate shipping.');
+                }
+            });
+        });
+    });
 </script>

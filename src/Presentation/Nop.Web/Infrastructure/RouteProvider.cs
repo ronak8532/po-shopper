@@ -50,6 +50,11 @@ namespace Nop.Web.Infrastructure
             routes.MapLocalizedRoute("EstimateShipping",
                             "cart/estimateshipping",
                             new {controller = "ShoppingCart", action = "GetEstimateShipping"},
+                            new[] {"Nop.Web.Controllers"}); //estimate shipping
+
+            routes.MapLocalizedRoute("ProductEstimateShipping",
+                            "cart/productestimateshipping",
+                            new {controller = "ShoppingCart", action = "GetProductEstimateShipping" },
                             new[] {"Nop.Web.Controllers"});
             //wishlist
             routes.MapLocalizedRoute("Wishlist",

@@ -31,3 +31,20 @@ C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.Fix
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.FixedOrByWeight\obj\Debug\Nop.Plugin.Shipping.FixedOrByWeight.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.FixedOrByWeight\obj\Debug\Nop.Plugin.Shipping.FixedOrByWeight.dll
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Shipping.FixedOrByWeight\obj\Debug\Nop.Plugin.Shipping.FixedOrByWeight.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.FixedOrByWeight\Description.txt
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.FixedOrByWeight\web.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.FixedOrByWeight\Views\Configure.cshtml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.FixedOrByWeight\Views\_CreateOrUpdateRateByWeight.cshtml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.FixedOrByWeight\Views\AddRateByWeightPopup.cshtml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.FixedOrByWeight\Views\EditRateByWeightPopup.cshtml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.FixedOrByWeight\Views\_ByWeight.cshtml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.FixedOrByWeight\Views\_FixedRate.cshtml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.FixedOrByWeight\logo.jpg
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.FixedOrByWeight\Nop.Plugin.Shipping.FixedOrByWeight.dll.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.FixedOrByWeight\Nop.Plugin.Shipping.FixedOrByWeight.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Shipping.FixedOrByWeight\Nop.Plugin.Shipping.FixedOrByWeight.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Shipping.FixedOrByWeight\obj\Debug\Nop.Plugin.Shipping.FixedOrByWeight.csproj.App.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Shipping.FixedOrByWeight\obj\Debug\Nop.Plugin.Shipping.FixedOrByWeight.csprojAssemblyReference.cache
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Shipping.FixedOrByWeight\obj\Debug\Nop.Plugin.Shipping.FixedOrByWeight.csproj.CoreCompileInputs.cache
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Shipping.FixedOrByWeight\obj\Debug\Nop.Plugin.Shipping.FixedOrByWeight.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Shipping.FixedOrByWeight\obj\Debug\Nop.Plugin.Shipping.FixedOrByWeight.pdb

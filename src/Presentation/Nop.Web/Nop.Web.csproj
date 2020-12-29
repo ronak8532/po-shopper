@@ -518,6 +518,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Data\Install\SqlServer.Indexes.sql" />
+    <Content Include="App_Data\Resources.xml" />
     <Content Include="Content\BBEditor\ed.js" />
     <Content Include="Content\BBEditor\images\bold.gif" />
     <Content Include="Content\BBEditor\images\code.gif" />
@@ -629,6 +630,25 @@
     <Content Include="Content\samples\product_WomenTShirt.jpg" />
     <Content Include="Content\samples\p_attribute_print_1.jpg" />
     <Content Include="Content\samples\p_attribute_print_2.jpg" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Description.txt" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\logo.jpg" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Resources\Resources.en-us.xml" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Scripts\Carousel\slick-slider-1.6.0.min.js" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Scripts\CloudZoom.min.js" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Settings.xml" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\SevenSpikes.Nop.Plugins.CloudZoom.dll" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Styles\Carousel\slick-slider-1.6.0.css" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\SupportedWidgetZones.xml" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Themes\DefaultClean\Content\carousel\carousel.css" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Themes\DefaultClean\Content\carousel\carousel.rtl.css" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Themes\DefaultClean\Content\cloud-zoom\CloudZoom.css" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Themes\DefaultClean\Content\cloud-zoom\CloudZoom.rtl.css" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Themes\DefaultClean\Content\cloud-zoom\images\loader.gif" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Themes\everything\Content\carousel\carousel.css" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Themes\everything\Content\carousel\carousel.rtl.css" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Themes\everything\Content\cloud-zoom\CloudZoom.css" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Themes\everything\Content\cloud-zoom\CloudZoom.rtl.css" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Themes\everything\SupportedWidgetZones.xml" />
     <Content Include="Scripts\fineuploader\edit.gif" />
     <Content Include="Scripts\fineuploader\fineuploader-4.2.2.css" />
     <Content Include="Scripts\fineuploader\fineuploader-4.2.2.min.css" />
@@ -643,6 +663,8 @@
     <Content Include="Content\samples\product_IfYouWait_1.zip" />
     <Content Include="Content\samples\product_NightVision_1.zip" />
     <Content Include="Content\samples\product_ScienceAndFaith_1.zip" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Views\CloudZoom\CloudZoom.cshtml" />
+    <Content Include="Plugins\SevenSpikes.Nop.Plugins.CloudZoom\Views\Web.config" />
     <None Include="Properties\PublishProfiles\AddFeature.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\fineuploader\iframe.xss.response-4.2.2.js" />
@@ -1023,6 +1045,9 @@
     <Content Include="Themes\everything\Content\font-awosome\css\font-awesome.min.css" />
     <Content Include="Themes\everything\Content\font-awosome\css\font-awesome.rtl.css" />
     <Content Include="Themes\everything\Content\font-awosome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Themes\everything\Content\Fonts\Graphik-Medium\Graphik-Medium-Web.svg" />
+    <Content Include="Themes\everything\Content\Fonts\Graphik-Regular\Graphik-Regular-Web.svg" />
+    <Content Include="Themes\everything\Content\Fonts\Guardian-EgypTT-Light\Guardian-EgypTT-Light.svg" />
     <Content Include="Themes\everything\Content\images\adv-banners.jpg" />
     <Content Include="Themes\everything\Content\images\ajax_loader_large.gif" />
     <Content Include="Themes\everything\Content\images\ajax_loader_small.gif" />
@@ -1033,6 +1058,7 @@
     <Content Include="Themes\everything\Content\images\bullet-left.gif" />
     <Content Include="Themes\everything\Content\images\bullet-right.gif" />
     <Content Include="Themes\everything\Content\images\closelabel.gif" />
+    <Content Include="Themes\everything\Content\images\down.svg" />
     <Content Include="Themes\everything\Content\images\download-sample-bg.gif" />
     <Content Include="Themes\everything\Content\images\forum-footer-bg.gif" />
     <Content Include="Themes\everything\Content\images\forum-header-bg.gif" />
@@ -1362,6 +1388,23 @@
     <Content Include="Themes\everything\Content\dependencies\simple-line-icons\fonts\Simple-Line-Iconsb26c.ttf" />
     <Content Include="Themes\everything\Content\dependencies\simple-line-icons\fonts\Simple-Line-Iconsb26c.woff" />
     <Content Include="Themes\everything\Content\dependencies\simple-line-icons\fonts\Simple-Line-Iconsb26c.woff2" />
+    <Content Include="Themes\everything\Views\Product\CategoryOverview.cshtml" />
+    <Content Include="Themes\everything\Views\Product\EstimateShipping.cshtml" />
+    <Content Include="Themes\everything\Content\Fonts\Graphik-Medium\Graphik-Medium-Web.eot" />
+    <Content Include="Themes\everything\Content\Fonts\Graphik-Medium\Graphik-Medium-Web.otf" />
+    <Content Include="Themes\everything\Content\Fonts\Graphik-Medium\Graphik-Medium-Web.ttf" />
+    <Content Include="Themes\everything\Content\Fonts\Graphik-Medium\Graphik-Medium-Web.woff" />
+    <Content Include="Themes\everything\Content\Fonts\Graphik-Medium\Graphik-Medium-Web.woff2" />
+    <Content Include="Themes\everything\Content\Fonts\Graphik-Regular\Graphik-Regular-Web.eot" />
+    <Content Include="Themes\everything\Content\Fonts\Graphik-Regular\Graphik-Regular-Web.otf" />
+    <Content Include="Themes\everything\Content\Fonts\Graphik-Regular\Graphik-Regular-Web.ttf" />
+    <Content Include="Themes\everything\Content\Fonts\Graphik-Regular\Graphik-Regular-Web.woff" />
+    <Content Include="Themes\everything\Content\Fonts\Graphik-Regular\Graphik-Regular-Web.woff2" />
+    <Content Include="Themes\everything\Content\Fonts\Guardian-EgypTT-Light\Guardian-EgypTT-Light.eot" />
+    <Content Include="Themes\everything\Content\Fonts\Guardian-EgypTT-Light\Guardian-EgypTT-Light.otf" />
+    <Content Include="Themes\everything\Content\Fonts\Guardian-EgypTT-Light\Guardian-EgypTT-Light.ttf" />
+    <Content Include="Themes\everything\Content\Fonts\Guardian-EgypTT-Light\Guardian-EgypTT-Light.woff" />
+    <Content Include="Themes\everything\Content\Fonts\Guardian-EgypTT-Light\Guardian-EgypTT-Light.woff2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Plugins\bin\" />

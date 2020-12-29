@@ -1540,6 +1540,22 @@ namespace Nop.Web.Controllers
             return PartialView("_EstimateShippingResult", model);
         }
 
+        [ValidateInput(false)]
+        [HttpPost]
+        public virtual ActionResult GetProductEstimateShipping(int? countryId, int? stateProvinceId, string zipPostalCode)
+        {
+            var cart = _workContext.CurrentCustomer.ShoppingCartItems
+                .Where(sci => sci.ShoppingCartType == ShoppingCartType.ShoppingCart)
+                .LimitPerStore(_storeContext.CurrentStore.Id)
+                .ToList();
+
+
+            var model = _shoppingCartModelFactory.PrepareEstimateShippingResultModel(cart, countryId, stateProvinceId, zipPostalCode);
+            return PartialView("_EstimateShippingResult", model);
+        }
+
+
+
         [ChildActionOnly]
         public virtual ActionResult OrderTotals(bool isEditable)
         {

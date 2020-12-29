@@ -70,3 +70,40 @@ C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Widgets.Nivo
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner1.jpg
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner2.jpg
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\custom\arrows.png
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\custom\bullets.png
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\custom\custom.css
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\custom\loading.gif
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\Configure.cshtml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\PublicInfo.cshtml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\nivo-slider.css
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\arrows.png
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bar.css
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bullets.png
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\loading.gif
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\arrows.png
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\bullets.png
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\dark.css
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\loading.gif
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\arrows.png
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\bullets.png
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\default.css
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\loading.gif
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\arrows.png
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\bullets.png
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\light.css
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\loading.gif
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Description.txt
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Scripts\jquery.nivo.slider.js
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\web.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\logo.jpg
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csproj.App.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csproj.CoreCompileInputs.cache
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojAssemblyReference.cache

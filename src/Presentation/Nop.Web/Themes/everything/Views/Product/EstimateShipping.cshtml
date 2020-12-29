@@ -1,0 +1,86 @@
+﻿@using Nop.Web.Models.Catalog;
+@model ProductDetailsModel
+@using Nop.Web.Models.ShoppingCart;
+<div class="col-md-6 col-sm-6">
+    <div class="shipping">
+        <script type="text/javascript">
+                $(function () {
+                    $("#@Html.FieldIdFor(model => model.EstimateShipping.CountryId)").change(function () {
+                        var selectedItem = $(this).val();
+                        var ddlStates = $("#@Html.FieldIdFor(model => model.EstimateShipping.StateProvinceId)");
+                        var estimateProgress = $("#estimate-shipping-loading-progress");
+                        estimateProgress.show();
+                        $.ajax({
+                            cache: false,
+                            type: "GET",
+                            url: "@(Url.RouteUrl("GetStatesByCountryId"))",
+                            data: { "countryId": selectedItem, "addSelectStateItem": "true" },
+                            success: function (data) {
+                                ddlStates.html('');
+                                $.each(data, function (id, option) {
+                                    ddlStates.append($('<option></option>').val(option.id).html(option.name));
+                                });
+                                estimateProgress.hide();
+                            },
+                            error: function (xhr, ajaxOptions, thrownError) {
+                                alert('Failed to retrieve states.');
+                                estimateProgress.hide();
+                            }
+                        });
+                    });
+                });
+        </script>
+        <div class="estimate-shipping">
+            <div class="title">
+                <strong>@T("ShoppingCart.EstimateShipping")</strong>
+            </div>
+            <div class="hint">@T("ShoppingCart.EstimateShipping.Tooltip")</div>
+            <div class="shipping-options">
+                <div class="inputs">
+                    @Html.LabelFor(model => model.EstimateShipping.CountryId, new { }, ":")
+                    <span class="required">*</span>
+                    @Html.DropDownListFor(model => model.EstimateShipping.CountryId, Model.EstimateShipping.AvailableCountries, new { @class = "form-control square-box" })
+
+                </div>
+                <div class="inputs">
+                    @Html.LabelFor(model => model.EstimateShipping.StateProvinceId, new { }, ":")
+                    @Html.DropDownListFor(model => model.EstimateShipping.StateProvinceId, Model.EstimateShipping.AvailableStates, new { @class = "form-control square-box" })
+                    <span id="estimate-shipping-loading-progress" style="display: none;" class="please-wait">@T("Common.Wait...")</span>
+                </div>
+                <div class="inputs">
+                    @Html.LabelFor(model => model.EstimateShipping.ZipPostalCode, new { }, ":")
+                    @Html.TextBoxFor(model => model.EstimateShipping.ZipPostalCode, new { @class = "form-control square-box" })
+                </div><br />
+                <div class="buttons">
+                    @*<input type="submit" name="estimateshipping" value="@T("ShoppingCart.EstimateShipping.Button")" class="btn btn-default" />*@
+                    <input id="estimate-shipping-button" type="button" value="@T("ShoppingCart.EstimateShipping.Button")" class="button-2 estimate-shipping-button btn btn-default" />
+                </div>
+            </div><br />
+            <div class="estimate-shipping-result"></div>
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#estimate-shipping-button').click(function() {
+            displayAjaxLoading(true);
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url: "@(Url.RouteUrl("ProductEstimateShipping"))",
+                data: $("#shopping-cart-form").serialize(),
+                success: function(data) {
+                    displayAjaxLoading();
+                    $('.estimate-shipping-result').html(data);
+                },
+                error: function(xhr, ajaxOptions, thrownError) {
+                    displayAjaxLoading();
+                    alert('Failed to retrieve estimate shipping.');
+                }
+            });
+        });
+    });
+</script>
+

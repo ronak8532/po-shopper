@@ -115,3 +115,43 @@ C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\obj\Debug
 C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\obj\Debug\Nop.Data.csproj.CopyComplete
 C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\obj\Debug\Nop.Data.dll
 C:\Users\Shees\Desktop\nopCommerce-release-3.90\src\Libraries\Nop.Data\obj\Debug\Nop.Data.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\Nop.Data.dll.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\Nop.Data.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\Nop.Data.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\EntityFramework.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\EntityFramework.SqlServerCompact.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\Nop.Core.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\System.Data.SqlServerCe.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\Autofac.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\AutoMapper.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\StackExchange.Redis.StrongName.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\RedLock.StrongName.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\System.Web.Mvc.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\Autofac.Integration.Mvc.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\Newtonsoft.Json.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\System.Web.Razor.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\System.Web.WebPages.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\Nop.Core.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\Nop.Core.dll.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\EntityFramework.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\EntityFramework.SqlServerCompact.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\Autofac.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\AutoMapper.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\StackExchange.Redis.StrongName.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\System.Web.Mvc.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\Autofac.Integration.Mvc.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\Newtonsoft.Json.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\System.Web.Razor.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\System.Web.WebPages.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\obj\Debug\Nop.Data.csprojAssemblyReference.cache
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\obj\Debug\Nop.Data.csproj.CoreCompileInputs.cache
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\obj\Debug\Nop.Data.csproj.CopyComplete
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\obj\Debug\Nop.Data.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Libraries\Nop.Data\obj\Debug\Nop.Data.pdb

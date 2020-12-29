@@ -1,0 +1,25 @@
+﻿@model IList<ProductDetailsModel.CategoryListModel>
+@using Nop.Web.Models.Catalog
+
+@if (Model.Count > 0)
+{
+    <div class="category-grid sub-category-grid">
+        <div class="heading">
+            @T("catalog.categeoryOverview.title")
+        </div>
+        <div class="item-grid">
+            <ul class="product-cat-list">
+                @foreach (var item in Model)
+                {
+                    <li class="product-cat-list-item">
+                        <a href="@Url.RouteUrl("Category", new {SeName = item.SeName})">
+                            @item.Name
+                        </a>
+                    </li>
+                }
+            </ul>
+            
+        </div>
+    </div>
+}
+

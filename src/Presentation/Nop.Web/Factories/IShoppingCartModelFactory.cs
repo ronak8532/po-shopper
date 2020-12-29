@@ -77,5 +77,7 @@ namespace Nop.Web.Factories
         /// <param name="excludeProperties">Whether to exclude populating of model properties from the entity</param>
         /// <returns>Wishlist email a friend model</returns>
         WishlistEmailAFriendModel PrepareWishlistEmailAFriendModel(WishlistEmailAFriendModel model, bool excludeProperties);
+
+        EstimateShippingModel PrepareProductEstimateShippingModel(bool setEstimateShippingDefaultAddress = true);
     }
 }

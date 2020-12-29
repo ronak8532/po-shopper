@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language Name="English">
+  <LocaleResource Name="Product.title.Description">
+    <Value>Description</Value>
+  </LocaleResource> 
+  <LocaleResource Name="catalog.categeoryOverview.title">
+    <Value>Explore more options</Value>
+  </LocaleResource>  
+  <LocaleResource Name="Product.title.Highlights">
+    <Value>Highlights</Value>
+  </LocaleResource> 
+  <LocaleResource Name="Product.title.Delivery">
+    <Value>Delivery and return policies</Value>
+  </LocaleResource>
+</Language>

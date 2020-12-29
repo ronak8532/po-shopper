@@ -383,6 +383,62 @@ namespace Nop.Web.Factories
             return model;
         }
 
+
+        public EstimateShippingModel PrepareProductEstimateShippingModel(bool setEstimateShippingDefaultAddress = true)
+        {
+            var model = new EstimateShippingModel();
+
+                //countries
+                int? defaultEstimateCountryId = (setEstimateShippingDefaultAddress && _workContext.CurrentCustomer.ShippingAddress != null)
+                    ? _workContext.CurrentCustomer.ShippingAddress.CountryId
+                    : model.CountryId;
+                model.AvailableCountries.Add(new SelectListItem
+                {
+                    Text = _localizationService.GetResource("Address.SelectCountry"),
+                    Value = "0"
+                });
+                foreach (var c in _countryService.GetAllCountriesForShipping(_workContext.WorkingLanguage.Id))
+                    model.AvailableCountries.Add(new SelectListItem
+                    {
+                        Text = c.GetLocalized(x => x.Name),
+                        Value = c.Id.ToString(),
+                        Selected = c.Id == defaultEstimateCountryId
+                    });
+
+                //states
+                int? defaultEstimateStateId = (setEstimateShippingDefaultAddress && _workContext.CurrentCustomer.ShippingAddress != null)
+                    ? _workContext.CurrentCustomer.ShippingAddress.StateProvinceId
+                    : model.StateProvinceId;
+                var states = defaultEstimateCountryId.HasValue
+                    ? _stateProvinceService.GetStateProvincesByCountryId(defaultEstimateCountryId.Value, _workContext.WorkingLanguage.Id).ToList()
+                    : new List<StateProvince>();
+                if (states.Any())
+                {
+                    foreach (var s in states)
+                    {
+                        model.AvailableStates.Add(new SelectListItem
+                        {
+                            Text = s.GetLocalized(x => x.Name),
+                            Value = s.Id.ToString(),
+                            Selected = s.Id == defaultEstimateStateId
+                        });
+                    }
+                }
+                else
+                {
+                    model.AvailableStates.Add(new SelectListItem
+                    {
+                        Text = _localizationService.GetResource("Address.OtherNonUS"),
+                        Value = "0"
+                    });
+                }
+
+                if (setEstimateShippingDefaultAddress && _workContext.CurrentCustomer.ShippingAddress != null)
+                    model.ZipPostalCode = _workContext.CurrentCustomer.ShippingAddress.ZipPostalCode;
+
+            return model;
+        }
+
         /// <summary>
         /// Prepare the shopping cart item model
         /// </summary>

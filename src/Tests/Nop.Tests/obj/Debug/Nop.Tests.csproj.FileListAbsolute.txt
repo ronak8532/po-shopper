@@ -67,3 +67,39 @@ C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Tests\obj\Debug\Nop.T
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.csproj.CopyComplete
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
 C:\Users\pc\Desktop\nopCommerce-release-3.90\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\Nop.Tests.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\Nop.Tests.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\Nop.Core.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\nunit.framework.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\Autofac.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\AutoMapper.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\StackExchange.Redis.StrongName.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\RedLock.StrongName.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\System.Web.Mvc.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\Newtonsoft.Json.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\System.Web.Razor.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\System.Web.WebPages.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\Nop.Core.pdb
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\Nop.Core.dll.config
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\nunit.framework.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\Autofac.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\AutoMapper.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\StackExchange.Redis.StrongName.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\System.Web.Mvc.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\Newtonsoft.Json.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\System.Web.Razor.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\System.Web.WebPages.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojAssemblyReference.cache
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.csproj.CoreCompileInputs.cache
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.csproj.CopyComplete
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
+E:\Work\Source tree projects\po-shopper\po-shopper\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb

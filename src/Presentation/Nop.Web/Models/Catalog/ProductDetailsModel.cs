@@ -6,6 +6,7 @@ using Nop.Core.Domain.Orders;
 using Nop.Web.Framework;
 using Nop.Web.Framework.Mvc;
 using Nop.Web.Models.Media;
+using Nop.Web.Models.ShoppingCart;
 
 namespace Nop.Web.Models.Catalog
 {
@@ -27,6 +28,9 @@ namespace Nop.Web.Models.Catalog
             ProductManufacturers = new List<ManufacturerBriefInfoModel>();
             ProductReviewOverview = new ProductReviewOverviewModel();
             TierPrices = new List<TierPriceModel>();
+            Categories = new List<CategoryListModel>();
+            ProductReviews = new ProductReviewsModel();
+            EstimateShipping = new EstimateShippingModel();
         }
 
         //picture(s)
@@ -96,9 +100,12 @@ namespace Nop.Web.Models.Catalog
 
         public IList<ManufacturerBriefInfoModel> ProductManufacturers { get; set; }
 
+        public ProductReviewsModel ProductReviews { get; set; }
+
         public ProductReviewOverviewModel ProductReviewOverview { get; set; }
 
         public IList<TierPriceModel> TierPrices { get; set; }
+        public IList<CategoryListModel> Categories { get; set; }
 
         //a list of associated products. For example, "Grouped" products could have several child "simple" products
         public IList<ProductDetailsModel> AssociatedProducts { get; set; }
@@ -106,6 +113,8 @@ namespace Nop.Web.Models.Catalog
         public bool DisplayDiscontinuedMessage { get; set; }
 
         public string CurrentStoreName { get; set; }
+
+        public EstimateShippingModel EstimateShipping { get; set; }
 
         #region Nested Classes
 
@@ -223,6 +232,12 @@ namespace Nop.Web.Models.Catalog
             public string Price { get; set; }
 
             public int Quantity { get; set; }
+        }
+          public partial class CategoryListModel : BaseNopModel
+        {
+            public string Name { get; set; }
+
+            public string SeName { get; set; }
         }
 
         public partial class ProductAttributeModel : BaseNopEntityModel
